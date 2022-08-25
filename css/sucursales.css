@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background: linear-gradient(rgb(241, 4, 182), white);
+}
+
+.nav {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav_ul {
+    list-style-type: none;
+}
+
+.nav_li {
+    height: 80px;
+    width: 10%;
+    display: inline-block;
+    /* line-height: 80px; */
+}
+
+.link_nav {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.link_nav:hover {
+    color: rgb(250, 7, 173);
+    font: 25px bold;
+}
+
+
+h1.fondo {
+    background-color: rgba(0, 0, 0, 0.755);
+    text-align: center;
+    width: auto;
+}
+
+h1.fondo img {
+    height: 100px;
+}
+
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.envio {
+    background-color: black;
+    color: white;
+}
+
+
+.todo {
+    background-color: rgba(0, 0, 0, 0.755);
+    position: sticky;
+    top: 0px;
+}
+
+.todo img {
+    padding: 0px;
+}
+
+.texto {
+    font-size: 15px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    text-decoration: dashed;
+    transition: 2s;
+}
+
+.texto:hover {
+    background: black;
+    font-size: 20px;
+}
+
+
+.sucursal {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: black solid 10px;
+    padding: 10px;
+    justify-content: end;
+}
+
+.textoSuc {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.textoMapa {
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: black solid 10px;
+    transition: 10s;
+}
+
+.mapa:hover {
+    background-image: url(../assets/img/logo.png);
+}
+
+#piePagina {
+
+    background-color: rgba(121, 126, 126, 0.1);
+    border: 3px solid black;
+    padding: 1px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#piePagina h5 {
+    text-align: center;
+}

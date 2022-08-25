@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background: linear-gradient(rgb(241, 4, 182), white);
+}
+
+h1.fondo {
+    background-color: rgba(0, 0, 0, 0.755);
+    text-align: center;
+    width: auto;
+}
+
+h1.fondo img {
+    height: 100px;
+}
+
+.todo {
+    background-color: rgb(0, 0, 0, 0.755);
+    position: sticky;
+    top: 1px;
+}
+
+.envio {
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav_ul {
+    list-style-type: none;
+}
+
+.nav_li {
+    height: 80px;
+    width: 10%;
+    display: inline-block;
+    /* line-height: 80px; */
+}
+
+.link_nav {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 1s;
+
+}
+
+.link_nav:hover {
+    color: rgb(250, 7, 173);
+    font: 25px bold;
+}
+
+article img {
+    border: white groove 20px;
+}
+
+article {
+    display: flex;
+    transition: all 2s infinite;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+}
+
+article:hover {
+    box-shadow: 5px 5px 500px rgb(0, 0, 0);
+}
+
+
+
+
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+#piePagina {
+    background-color: rgba(121, 126, 126, 0.1);
+    border: 3px solid black;
+    padding: 1px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#piePagina h5 {
+    text-align: center;
+}
+
+#formulario:hover {
+
+    border: 15px solid lightcoral;
+}
+
+#formulario legend {
+    text-align: center;
+    font-weight: bold;
+}
+
+#formulario {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: all 3s;
+}
+
+#formulario .extender {
+    width: 50%;
+    height: 3cm;
+}
+
+/* RESPONSIVE */
+@media (max-width:768px) {
+    .todo {
+        display: flex;
+    }
+
+    article {
+        display: grid;
+        border: black 10px solid;
+        justify-content: center;
+    }
+
+    .text {
+        font-family: sans-serif;
+        padding: 50px;
+        color: pink;
+        background: black;
+    }
+
+    #formulario {
+        background: radial-gradient(pink, black);
+    }
+
+    #formulario p {
+        font-family: cursive;
+    }
+
+    legend:hover {
+        color: wheat;
+        background-color: black;
+    }
+
+    #piePagina {
+        font-family: cursive;
+        background: black;
+        color: white;
+    }
+}
