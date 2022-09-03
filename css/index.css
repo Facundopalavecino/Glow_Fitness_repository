@@ -47,9 +47,8 @@ body {
     transition: all 1s;
 }
 
-.link_nav:hover {
+.navbar:hover {
     color: rgb(250, 7, 173);
-    font: 25px bold;
 }
 
 .fondo img {
@@ -115,7 +114,7 @@ body {
     background: black;
 }
 
-.lanzamientos_h1 {
+.lanzamientos_h2 {
     text-align: center;
     font-family: cursive;
     padding: 50px;
