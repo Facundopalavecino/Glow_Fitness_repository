@@ -1,0 +1,59 @@
+/* VARIABLES */
+/*  */
+.body {
+  padding: 10px;
+  background-color: black;
+}
+.body .todo {
+  background-color: white;
+}
+.body .todo .envio {
+  text-align: center;
+  background: gray;
+  font-size: 50px;
+}
+.body .todo .navbar {
+  padding: 3px;
+}
+.body .todo .navbar .container-fluid {
+  background-color: pink;
+}
+.body .todo .navbar .container-fluid a {
+  background: gray;
+  color: coral;
+}
+.body .formulario {
+  color: white;
+  padding: 50px;
+  border: rebeccapurple solid 5px;
+}
+.body .formulario .col-8 {
+  background-color: gray;
+}
+.body .formulario .col-3 {
+  background-color: aqua;
+}
+.body .formulario .col-12 {
+  font-family: "cursive";
+  padding: 10px;
+  background-color: red;
+}
+.body .formulario .col-6 {
+  font-family: "cursive";
+}
+.body .bases {
+  background-color: gray;
+}
+.body .bases__titulo {
+  color: coral;
+}
+.body .bases__parrafo {
+  color: white;
+}
+.body .container {
+  border: rebeccapurple solid 1px;
+}
+.body .container .footerGlow {
+  color: coral;
+  text-align: center;
+}/*# sourceMappingURL=contacto.css.map */

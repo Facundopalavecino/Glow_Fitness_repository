@@ -1,0 +1,85 @@
+/* VARIABLES */
+$fontSize : 50px;
+$centrar : center;
+$fontFamily : 'cursive';
+$bgFondo : gray;
+$bgFondoNavegador : pink;
+$colorWhite : white;
+$colorCoral : coral;
+
+/*  */
+.body {
+    padding: 10px;
+    background-color: black;
+
+    .todo {
+        background-color: white;
+
+
+        .envio {
+            text-align: $centrar;
+            background: $bgFondo;
+            font-size: $fontSize;
+        }
+
+        .navbar {
+            padding: 3px;
+
+            .container-fluid {
+                background-color: $bgFondoNavegador;
+            }
+
+            .container-fluid a {
+                background: $bgFondo;
+                color: $colorCoral;
+            }
+        }
+    }
+
+    .formulario {
+        color: white;
+        padding: 50px;
+        border: rebeccapurple solid 5px;
+
+        .col-8 {
+            background-color: gray;
+        }
+
+        .col-3 {
+            background-color: aqua;
+        }
+
+        .col-12 {
+            font-family: $fontFamily;
+            padding: 10px;
+            background-color: red;
+        }
+
+        .col-6 {
+            font-family: $fontFamily ;
+        }
+    }
+
+    .bases {
+        background-color: gray;
+
+        &__titulo {
+            color: $colorCoral;
+        }
+
+        &__parrafo {
+            color: $colorWhite;
+        }
+
+    }
+
+    .container {
+        border: rebeccapurple solid 1px;
+
+        .footerGlow {
+            color: $colorCoral;
+            text-align: $centrar;
+        }
+    }
+
+}

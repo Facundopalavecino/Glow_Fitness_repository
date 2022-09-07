@@ -1,6 +1,2 @@
-# PROYECTO FINAL . SEGUNDA ENTREGA
-### BOOTSTRAPS en index.html y productos.html
-### SEGUNDA ENTREGA DEL PROYECTO FINAL !
-#### Archivos para vista mobila y desktop (index.html y productos.html)
-# 2daEntrega.github.io
-# 2daEntrega.github.io archivos con bootstrap
+# APLICANDO SASS
+## Aplicamos SASS a contacto.html

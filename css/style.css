@@ -162,7 +162,8 @@ user agent stylesheet li {
 }
 
 /* Footer */
-/* productos.html */
+
+/* Productos */
 .grid {
     display: grid;
     gap: 5px;
@@ -274,6 +275,15 @@ h2 a {
 
 
 /* productos.html */
+
+/* Contacto */
+.formulario {
+    padding: 5px;
+    border: gold solid 2px;
+    height: auto;
+}
+
+/* Contacto */
 
 /* RESPONSIVE PARA MOBILE */
 @media (max-width: 575px) {
