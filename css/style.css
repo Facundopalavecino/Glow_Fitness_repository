@@ -45,21 +45,26 @@ user agent stylesheet li {
 .body {
     height: auto;
     padding: 30px;
-    background: linear-gradient(rgb(241, 4, 182), white);
+    background: linear-gradient(rgb(199, 36, 96), black);
+}
+
+.todo {
+    position: sticky;
+    top: 2px;
 }
 
 .envio {
-    color: black;
-    padding: 5px;
-    text-align: center;
-    font-size: 2rem;
+    display: inline-block;
+    /* background: white; */
+    /*  color: black; */
+    padding: 4px;
+    font-size: 1rem;
     transition: all 2s;
     font-family: cursive;
 }
 
 .envio:hover {
-    font-size: 2rem;
-    color: white;
+    font-size: 1.2rem;
     text-decoration-line: underline;
 }
 
@@ -73,129 +78,85 @@ user agent stylesheet li {
 }
 
 /* NAVEGACION */
-
-
-
-/* INDEX */
-
-.link {
-    background-color: pink;
-    padding: 100px;
-    font-size: 2rem;
-}
-
-.link_prod {
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-}
-
-
-.link_prod:hover {
-    background-color: purple;
-    font-size: 3rem;
-}
-
-.portadas img:hover {
-    border: black solid 3px;
-}
-
-
-
-#notificaciones {
-    transition: all 2s;
-}
-
-#notificaciones:hover {
-    border: black solid 3px;
-}
-
-
-#main {
-    background-image: url(/repositorio/assets/img/logo.png);
-    padding: 200px;
-    text-align: center;
-}
-
-#main a {
-    color: white;
-    font-size: 3rem;
-}
-
-#main .marcas_h4 {
-    padding: 10px;
-    display: inline;
-    font-family: cursive;
-    font-weight: bold;
-    background-color: white;
-    font-size: 2rem;
-}
-
-.marcas {
-    border: black solid 1px;
-    background-color: white;
-}
-
-.cupon {
-    display: flex;
-    flex-direction: row-reverse;
-    border: #6c757d dotted 2px;
-    padding: 50px;
-}
-
-.cupon .figures {
-    font-size: 2rem;
-    color: crimson
-}
-
-.cupon img {
-    border: crimson solid 2px;
-}
-
-/* INDEX */
-
-
-
 /* Footer */
 .footerGlow {
     text-align: center;
 }
 
 /* Footer */
+/* INDEX */
+.logo {
+    transition: all 2s;
+}
+
+.logo:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.liquidacion img {
+    width: 900px;
+}
+
+.card1 {
+    padding: 1px;
+    display: flex;
+    gap: 200px;
+}
+
+.card1 img {
+    height: 700px;
+}
+
+#notificaciones {
+    transition: all 2s;
+    overflow: hidden;
+}
+
+#notificaciones:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.cupon {
+    display: flex;
+    flex-direction: row-reverse;
+    border: skyblue dotted 5px;
+}
+
+.cupon .figures {
+    font-size: 3rem;
+}
+
+.cupon img {
+    border: skyblue dotted 5px;
+}
+
+/* INDEX */
+
 
 /* Productos */
-.grid {
-    display: grid;
-    gap: 5px;
-    transition: all 1s;
-}
-
-.grid img {
+#carouselExampleInterval {
+    text-align: center;
     width: 100%;
-    height: 80%;
-    grid-row: 1/2;
 }
 
-.grid:hover {
-    border: deeppink dotted 5px;
+#carouselExampleInterval img:hover {
+    filter: grayscale(80%);
+}
+
+#carouselExampleInterval img {
+    height: 600px;
 }
 
 .grid-text {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
 .grid-text:hover {
-    font-size: 5rem;
+    font-size: 3.3rem;
     color: white;
-}
-
-h6 {
-    text-align: center;
-}
-
-.progress {
-    margin: 15 px;
 }
 
 .cate {
@@ -209,6 +170,12 @@ h6 {
 .cate:hover {
     background-color: darkblue;
     color: white;
+}
+
+
+h2 a {
+    font-size: 1.5rem;
+    font-family: cursive;
 }
 
 .prod-flex {
@@ -233,28 +200,12 @@ h6 {
     text-align: center;
 }
 
-.prod-flex img {
-    border: coral solid 4px;
-}
-
-
-
 .prod-flex:hover {
     border: white double 10px;
 }
 
-h2 {
-    text-align: center;
-    padding: 25px;
-}
-
-h2 a {
-    color: black;
-    font-size: 2rem;
-    font-family: cursive;
-}
-
 .card {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -270,25 +221,57 @@ h2 a {
 }
 
 .card:hover {
-    border: white solid 10px;
+    border: white solid 5px;
 }
-
 
 /* productos.html */
 
 /* Contacto */
 .formulario {
-    padding: 5px;
-    border: gold solid 2px;
-    height: auto;
+    padding: 50px;
 }
 
 /* Contacto */
+/* SUCURSALES */
+.mapa iframe {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    border: skyblue dotted 5px;
+}
+
+/* SUCURSALES */
+/* RRHH */
+.imgrrhh {
+    display: flex;
+}
+
+.imgrrhh img {
+    display: flex;
+    width: auto;
+    /*  */
+    height: auto;
+}
+
+form {
+    color: white;
+}
+
+/* RRHH */
 
 /* RESPONSIVE PARA MOBILE */
-@media (max-width: 575px) {
+@media (max-width: 500px) {
     html {
         font-size: 50%;
+    }
+
+    .navbar {
+        box-shadow: 5px 5px 10px red;
+    }
+
+    .navbar img {
+        width: 50px;
+        height: 50px;
     }
 
     .liquidacion {
@@ -297,24 +280,36 @@ h2 a {
         flex-direction: column;
     }
 
-    #main img {
-        width: 50vh;
-        height: 5%;
-    }
-
-    #main {
-        width: 100%;
-        display: grid;
-        padding: 10%;
-    }
-
     .portadas img {
         width: 100%;
-        height: 100%;
+    }
+
+    .portadas h3 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    #carouselExampleFade {
+        display: grid;
+    }
+
+    #carouselExampleFade img {
+        width: 100%;
     }
 
     .carrusel {
         font-size: 3rem;
+    }
+
+    .cupon {
+        padding: 3px;
+        display: grid;
+        text-align: center;
+    }
+
+    .cupon .figures {
+        font-style: italic;
+        font-size: 10px;
     }
 
     .notificaciones {
@@ -337,20 +332,31 @@ h2 a {
     /* INDEX */
     /* PRODUCTOS */
     .card {
-        width: min-content;
-        display: grid;
+        text-align: center;
+        width: 100%;
+        display: flex
+    }
 
+    .card h5 {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 1rem;
     }
 
     .card img {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
+        width: 100px;
+        height: 100px;
     }
 
     .card1 img {
-        width: 350px;
+        width: 50%;
+        height: 250px;
+        border: white solid 1px;
+
     }
+
 
     .prod-flex {
         width: 100%;
@@ -366,6 +372,38 @@ h2 a {
         display: flex;
         align-content: space-around;
     }
+
+    #carouselExampleInterval {
+        width: 100%;
+        height: 400px;
+    }
+
+    #carouselExampleInterval img {
+        width: 50%;
+        height: 200px;
+    }
+
+    /* RRHH */
+    .body_RRHH {
+        width: 100%;
+        background: pink;
+        padding: 50px;
+    }
+
+    .imgrrhh {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgrrhh p {
+        text-align: end;
+    }
+
+    .mapa {
+        height: 50%;
+    }
+
+    /* RRHH */
 }
 
 

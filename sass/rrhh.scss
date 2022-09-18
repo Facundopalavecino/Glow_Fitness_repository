@@ -1,0 +1,78 @@
+$borderBlack: black solid 3px;
+$borderViolet : rgb(190, 67, 190) solid 3px;
+$borderPink : pink solid 4px;
+$fontFamily : 'cursive';
+$width : 25%;
+$colorWhite : white;
+$unRem : 1rem;
+
+/* extend */
+.body {
+    padding: 30px;
+    background: linear-gradient(white, rgb(182, 57, 78));
+}
+
+.todo {
+    position: sticky;
+    top: 2px;
+}
+
+.fondo {
+    display: flex;
+
+}
+
+.fondo img {
+    width: 100px;
+    height: 100px;
+}
+
+.envio {
+    font-family: $fontFamily;
+
+    font-size: $unRem;
+    display: inline-block;
+    padding: 4px;
+    font-family: cursive;
+}
+
+.imgrrhh {
+    /* background-image: url(../assets/rrhh/rrhh-fondo.jpg); */
+    border: $borderViolet;
+    background-color: palevioletred;
+}
+
+.imgrrhh img {
+    width: $width;
+    border: $borderViolet;
+}
+
+.imgrrhh--uno {
+    border: $borderBlack;
+    background-color: aqua;
+    text-align: center
+}
+
+.imgrrhh--dos {
+    @extend .imgrrhh--uno;
+    background: palegoldenrod;
+    border: $borderPink;
+}
+
+.form label {
+    @extend .envio;
+}
+
+
+/* mixin */
+@mixin botones($colorNavegacion, $border) {
+    display: inline-block;
+    color: $colorNavegacion;
+    border: $border;
+    font-size: $unRem + 0.3;
+    font-family: $fontFamily;
+}
+
+a.navegacion {
+    @include botones(crimson, 50px);
+}

@@ -1,0 +1,59 @@
+/* extend */
+.body {
+  padding: 30px;
+  background: linear-gradient(white, rgb(182, 57, 78));
+}
+
+.todo {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2px;
+}
+
+.fondo {
+  display: flex;
+}
+
+.fondo img {
+  width: 100px;
+  height: 100px;
+}
+
+.envio, .form label {
+  font-family: "cursive";
+  font-size: 1rem;
+  display: inline-block;
+  padding: 4px;
+  font-family: cursive;
+}
+
+.imgrrhh {
+  /* background-image: url(../assets/rrhh/rrhh-fondo.jpg); */
+  border: rgb(190, 67, 190) solid 3px;
+  background-color: palevioletred;
+}
+
+.imgrrhh img {
+  width: 25%;
+  border: rgb(190, 67, 190) solid 3px;
+}
+
+.imgrrhh--uno, .imgrrhh--dos {
+  border: black solid 3px;
+  background-color: aqua;
+  text-align: center;
+}
+
+.imgrrhh--dos {
+  background: palegoldenrod;
+  border: pink solid 4px;
+}
+
+/* mixin */
+a.navegacion {
+  display: inline-block;
+  color: crimson;
+  border: 50px;
+  font-size: 1.3rem;
+  font-family: "cursive";
+}/*# sourceMappingURL=rrhh.css.map */

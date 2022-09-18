@@ -7,18 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sucursales</title>
     <link rel="icon" type="image/x-icon" href="/repositorio/assets/logo.ico.png">
-    <link rel="stylesheet" href="../css/sucursales.css">
+    <!-- SEO -->
+    <meta name="description" content="Indumentaria femenina, destinada a la vida deportista. Somos un emprendimiento
+        surgido desde 2020. ¡ Entra y mira nuestras hermosas prendas !">
+    <meta name="keywords" content="indumentaria mujer,ropa mujer,deportes,fitness,gimnacio,running,entrenar">
+    <!--  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/">
 </head>
 
-<body>
+<body class="body">
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <!-- <symbol id="bootstrap" viewBox="0 0 118 94">
-                <title>Bootstrap</title>
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
-                </path>
-            </symbol> -->
         <symbol id="facebook" viewBox="0 0 16 16">
             <path
                 d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
@@ -32,93 +33,117 @@
                 d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
         </symbol>
     </svg>
-    <header class="todo">
+    <header class="todo  text-center">
         <h4 class="envio">ENVIOS GRATIS A PARTIR DE $3500</h4>
-        <h1 class="fondo">
-            <img src="../assets/img/logo.png" alt="logo">
-        </h1>
-        <nav class="nav">
-            <ul class="nav_ul">
-                <li class="nav_li"><a class="link_nav" href="../index.html">GlowFitness</a></li>
-                <li class="nav_li"><a class="link_nav" href="productos.html">PRODUCTOS</a> </li>
-                <li class="nav_li"><a class="link_nav" href="contacto.html">CONTACTO</a></li>
-
-                <li class="nav_li"><a class="link_nav" href="#">SUCURSALES</a></li>
-                <li class="nav_li"><a class="link_nav" href="rrhh.html">RRHH</a></li>
-            </ul>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="fondo bg-dark">
+                    <img class="logo" src="../assets/img/logo.png" alt="logo">
+                </div>
+                <a class="navbar-brand" href="../index.html">GlowFitness</a>
+                <a class="navbar-brand" href="../pages/productos.html">Productos</a>
+                <a class="navbar-brand" href="../pages/contacto.html">Contacto</a>
+                <a class="navbar-brand text-primary" href="#">Sucursales</a>
+                <a class="navbar-brand" href="../pages/rrhh.html">RRHH</a>
+                <div class="fondo bg-dark">
+                    <img class="logo" src="../assets/img/logo.png" alt="logo">
+                </div>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Que estas buscando?"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form> -->
+            </div>
         </nav>
+
     </header>
 
 
-    <h3 class="texto">
+    <p class="texto fst-italic text-center p-5 text-uppercase fs-3 ">
         GlowFitness llego al mercado en 2017. Gracias al apoyo de
-        ustedes, nos expandimos por toda la nacion.
-        Pero no nos conformamos! Aun queda mucho camino, vamos por mas!
-    </h3>
-
-    <h2 class="textoSuc">Sucursal Principal</h2>
-    <table class="sucursal">
+        ustedes, nos expandimos por toda la Argentina.
+        Pero no nos conformamos! Aun queda mucho camino, vamos por más!
+    </p>
+    <h1 class="text-center p-3">TOP 3 SUCURSALES CON MÁS VENTAS</h1>
+    <table class="table table-dark table-striped">
         <thead>
-
-            <th>Sucursal</th>
-            <th>Direccion</th>
-            <th>Contacto</th>
+            <tr>
+                <th scope="col">€</th>
+                <th scope="col">Sucursal</th>
+                <th scope="col">Ubicacion</th>
+                <th scope="col">Contaco</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
-                <td>SAN MIGUEL</td>
+                <th scope="row">1</th>
+                <td>San Miguel</td>
                 <td>Av. Peron 1300</td>
                 <td>(0800)-320-125</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Ituzaingo</td>
+                <td>Av. Santa Rosa 1354</td>
+                <td>(0800)-125-571</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Pacheco</td>
+                <td>Av. Rivadavia 712 </td>
+                <td>(0800)-178-028</td>
             </tr>
         </tbody>
     </table>
 
     <!--  -->
 
-    <h1 class="textoMapa">¡ Nuestras sucursales !</h1>
+    <h1 class="textoMapa text-center p-4 text-light">¡ Nuestras sucursales !</h1>
     <div class="mapa">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1OOHiJws9TlJoiK0MnlV8PkGPJQQZCCU&ehbc=2E312F" width="640"
-            height="480"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1OOHiJws9TlJoiK0MnlV8PkGPJQQZCCU&ehbc=2E312F"></iframe>
     </div>
-
-
-    <!-- <footer id="piePagina">
-        <h5>RRHH</h5>
-        <h5>CONTACTO:</h5>
-        <h5>glowfitness@gmail.com</h5>
-        <h5>(0800)-320-125</h5>
-        <h5>Metodos de envios</h5>
-        <h5>Terminos y condiciones</h5>
-        <h5>Politica de privacidad</h5>
-    </footer> -->
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+    <!--  -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+            <li class="page-item ">
+                <a class="page-link" href="./contacto.html">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">Page</a></li>
+            <li class="page-item">
+                <a class="page-link" href="./rrhh.html">Next</a>
+            </li>
+        </ul>
+    </nav>
+    <!--  -->
+    <div class="container text-light">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
-                <!-- revisar aca -->
-                <!-- <a href="./assets/logo.ico.png" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                        <svg class="bi" width="30" height="24">
-                            <use xlink:href="#bootstrap" />
-                        </svg>
-                    </a> -->
-                <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+                <span class="mb-3 mb-md-0 fw-semibold">&copy; 2022 Company, Inc</span>
             </div>
             <div>
-                <h5>Glow Fitness</h5>
+                <h5 class="footerGlow fw-semibold">Glow Fitness</h5>
+                <span class="mb-3 mb-md-0 fw-semibold"> Todos los derechos reservados </span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                <li class="ms-3"><a class="fw-semibold" href="#"><svg class="bi" width="24" height="24">
                             <use xlink:href="#twitter" />
                         </svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                <li class="ms-3"><a class="fw-semibold" href="#"><svg class="bi" width="24" height="24">
                             <use xlink:href="#instagram" />
                         </svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                <li class="ms-3"><a class="fw-semibold" href="#"><svg class="bi" width="24" height="24">
                             <use xlink:href="#facebook" />
                         </svg></a></li>
             </ul>
         </footer>
     </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

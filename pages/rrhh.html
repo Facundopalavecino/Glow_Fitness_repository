@@ -7,18 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RRHH</title>
     <link rel="icon" type="image/x-icon" href="/repositorio/assets/logo.ico.png">
-    <link rel="stylesheet" href="../css/rrh.css">
+    <!-- SEO -->
+    <meta name="description" content="Indumentaria femenina, destinada a la vida deportista. Somos un emprendimiento
+        surgido desde 2020. ¡ Entra y mira nuestras hermosas prendas !">
+    <meta name="keywords" content="indumentaria mujer,ropa mujer,deportes,fitness,gimnacio,running,entrenar">
+    <!--  -->
+    <link rel="stylesheet" href="../sass/rrhh.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/">
 </head>
 
-<body>
+<body class="body">
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <!-- <symbol id="bootstrap" viewBox="0 0 118 94">
-                <title>Bootstrap</title>
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
-                </path>
-            </symbol> -->
         <symbol id="facebook" viewBox="0 0 16 16">
             <path
                 d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
@@ -33,113 +35,156 @@
         </symbol>
     </svg>
 
-    <header class="todo">
+    <header class="todo  text-center">
         <h4 class="envio">ENVIOS GRATIS A PARTIR DE $15000</h4>
-
-        <h1 class="fondo">
-            <img src="../assets/img/logo.png" alt="Logo">
-        </h1>
-        <nav class="nav">
-            <ul class="nav_ul">
-                <li class="nav_li"><a class="link_nav" href="../index.html">GlowFitness</a></li>
-                <li class="nav_li"><a class="link_nav" href="productos.html">PRODUCTOS</a> </li>
-                <li class="nav_li"><a class="link_nav" href="contacto.html">CONTACTO</a></li>
-
-                <li class="nav_li"><a class="link_nav" href="sucursales.html">SUCURSALES</a></li>
-                <li class="nav_li"><a class="link_nav" href="#">RRHH</a></li>
-            </ul>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="fondo bg-dark">
+                    <img class="logo" src="../assets/img/logo.png" alt="logo">
+                </div>
+                <a class="navegacion navbar-brand" href="../index.html">GlowFitness</a>
+                <a class="navegacion navbar-brand" href="../pages/productos.html">Productos</a>
+                <a class="navegacion navbar-brand" href="../pages/contacto.html">Contacto</a>
+                <a class="navegacion navbar-brand" href="../pages/sucursales.html">Sucursales</a>
+                <a class="navegacion navbar-brand text-primary" href="#">RRHH</a>
+                <div class="fondo bg-dark">
+                    <img class="logo" src="../assets/img/logo.png" alt="logo">
+                </div>
+            </div>
         </nav>
     </header>
-    <!-- <nav class="nav">
-        <ul class="nav_ul">
-            <li class="nav_li"><a class="link_nav" href="../index.html">GlowFitness</a></li>
-            <li class="nav_li"><a class="link_nav" href="productos.html">PRODUCTOS</a> </li>
-            <li class="nav_li"><a class="link_nav" href="contacto.html">CONTACTO</a></li>
-            <li class="nav_li"><a class="link_nav" href="sucursales.html">SUCURSALES</a></li>
-            <li class="nav_li"><a class="link_nav" href="#">RRHH</a></li>
-        </ul>
-    </nav>
- -->
-    <article>
-        <img src="../assets/rrhh/rrhh-fondo.jpg" alt="anim1">
-        <img src="../assets/rrhh/rrhh-fondo1.jpg" alt="anim2">
-        <img src="../assets/rrhh/rrhh-fondo2.jpg" alt="anim2">
-    </article>
 
-    <h3 class="text">Queres formar parte de nuestro equipo?
-        Llena el siguiente formulario!
+    <div class="imgrrhh">
+        <div class="border-bottom border-dark p-3">
+            <p class="text-center fs-4 fw-bold">Un gran producto y un crecimiento constante son esenciales para los
+                negocios,
+                pero
+                sin
+                la
+                gente apropiada no
+                llegamos a
+                ninguna parte. Por eso crecimos con personas adecuadas.
+                Únete a nuestro equipo ! <i>Glow Fitness, un gran emprendimiento</i>
+            </p>
+        </div>
+        <div class="imgrrhh--uno"><img src="../assets/rrhh/rrhh-fondo.jpg" alt="anim1"></div>
+        <div class="imgrrhh--dos"><img src="../assets/rrhh/rrhh-fondo1.jpg" alt="anim2"></div>
+    </div>
+
+    <h3 class="text-center p-3 m-3 text-light">-¿ Quéres formar parte de nuestro equipo?
+        Llená el siguiente formulario!
     </h3>
 
-    <fieldset id="formulario">
-        <legend>COMPLETA TUS DATOS</legend>
-        <input type="NombreCompleto" name="NombreCompleto" placeholder="Nombre completo">
 
-        <input type="Apellido" name="Apellido" placeholder="Apellido">
+    <form class="form row g-3">
+        <div class="col-md-5">
+            <label for="inputEmail4" class="form-label">Correo Electrónico*</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="@gmail - @yahoo - @hotmail - etc">
+        </div>
+        <div class="col-md-5">
+            <label for="inputNumber3" class="form-label">Número De Teléfono*</label>
+            <input type="number" class="form-control" id="inputNumber3" placeholder="ej : (011)-11224455">
+        </div>
+        <div class="col-8">
+            <label for="inputAddress" class="form-label">Dirección*</label>
+            <input type="text" class="form-control" id="inputAddress"
+                placeholder="ej: Italia 934, entre Rodriguez Peña y Charlone">
+        </div>
+        <div class="col-8">
+            <label for="inputAddress2" class="form-label">Dirección 2 (opcional)</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">Ciudad*</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Usted en su hogar... ?*</label>
+            <select id="inputState" class="form-select">
+                <option selected>Selecciona una opción</option>
+                <option value="1">Alquiló</option>
+                <option value="2">Inquilino</option>
+                <option value="3">Dueño directo</option>
+            </select>
+        </div>
 
-        <input type="Edad" placeholder="Edad">
+        <div class="form-check ">
+            <p class="fw-bold">Usted tiene hijos/hijas? *</p>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Tengo hijos
+            </label>
+        </div>
+        <div class="form-check ">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                No tengo hijos
+            </label>
+        </div>
+        <div class="col-4">
+            <label for="inputNumber3" class="form-label">En caso de tener hijos/hijas, indique la cantidad :</label>
+            <input type="number" class="form-control" id="inputNumber3">
+        </div>
+        <div class="col-4">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label " for="gridCheck">
+                    Acepto recibir futuras ofertas a mi Correo Electrónico
+                </label>
+            </div>
+        </div>
+        <div class="input-group p-3">
+            <label class="input-group-text" for="inputGroupFile01">Adjuntar CV</label>
+            <input type="file" class="form-control" id="inputGroupFile01">
 
+        </div>
 
-        <p>Fecha de nacimiento :<input type="date" name="Nacimiento" placeholder="Fecha de nacimiento"></p>
-
-        <input type="email" name="email" placeholder="Correo electronico">
-
-        <p>Tenes experiencia laboral?</p>
-        <label>SI
-            <input type="radio" name="SI" id="SI">
-        </label>
-
-        <label> NO
-            <input type="radio" name="NO" id="NO">
-        </label>
-
-        <p><em> En caso de respuesta afirmativa... </em> </p>
-        <p>Contanos tus experiencias!</p>
-        <input class="extender" type="text" name="" id="">
-
-        <p>Adjunte CV en archivo .jpg o .png</p>
-        <input type="image" src="CV" alt="CV">
-        <!-- Profe intente para el usuario adjunte archivo pero no pude -->
-
-        <input type="button" value="Enviar formulario">
-    </fieldset>
-
-    <!-- <footer id="piePagina">
-        <h5>RRHH</h5>
-        <h5>CONTACTO:</h5>
-        <h5>glowfitness@gmail.com</h5>
-        <h5>(0800)-320-125</h5>
-        <h5>Metodos de envios</h5>
-        <h5>Terminos y condiciones</h5>
-        <h5>Politica de privacidad</h5>
-    </footer> -->
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+        <a class="envioForm btn btn-primary" href="../css/rrhh_Form.html" target="_blank" role="button">Enviar
+            formulario</a>
+    </form>
+    <!--  -->
+    <!--  -->
+    <p class="p-3 text-light">(*) Campos obligatorios</p>
+    <!--  -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+            <li class="page-item ">
+                <a class="page-link" href="./productos.html">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">Page</a></li>
+            <li class="page-item">
+                <a class="page-link" href="./sucursales.html">Next</a>
+            </li>
+        </ul>
+    </nav>
+    <!--  -->
+    <div class="container text-light">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
-                <!-- revisar aca -->
-                <!-- <a href="./assets/logo.ico.png" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                        <svg class="bi" width="30" height="24">
-                            <use xlink:href="#bootstrap" />
-                        </svg>
-                    </a> -->
-                <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+                <span class="mb-3 mb-md-0 fw-semibold">&copy; 2022 Company, Inc</span>
             </div>
             <div>
-                <h5>Glow Fitness</h5>
+                <h5 class="footerGlow fw-semibold">Glow Fitness</h5>
+                <span class="mb-3 mb-md-0 fw-semibold"> Todos los derechos reservados </span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                <li class="ms-3"><a class="fw-semibold" href="#"><svg class="bi" width="24" height="24">
                             <use xlink:href="#twitter" />
                         </svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                <li class="ms-3"><a class="fw-semibold" href="#"><svg class="bi" width="24" height="24">
                             <use xlink:href="#instagram" />
                         </svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                <li class="ms-3"><a class="fw-semibold" href="#"><svg class="bi" width="24" height="24">
                             <use xlink:href="#facebook" />
                         </svg></a></li>
             </ul>
         </footer>
     </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
