@@ -1,6 +1,4 @@
 /*  */
-
-
 *,
 ::after,
 ::before {
@@ -22,7 +20,7 @@ user agent stylesheet:not(svg) {
 }
 
 a {
-    /* color: var(--bs-link-color); */
+    color: var(--bs-link-color);
     text-decoration: underline;
 }
 
@@ -48,10 +46,6 @@ user agent stylesheet li {
     background: linear-gradient(rgb(199, 36, 96), black);
 }
 
-.todo {
-    position: sticky;
-    top: 2px;
-}
 
 .envio {
     display: inline-block;
@@ -77,6 +71,12 @@ user agent stylesheet li {
     height: 100px;
 }
 
+.mapeo a {
+    background-color: crimson;
+    color: black;
+    font-family: cursive;
+}
+
 /* NAVEGACION */
 /* Footer */
 .footerGlow {
@@ -85,6 +85,8 @@ user agent stylesheet li {
 
 /* Footer */
 /* INDEX */
+
+
 .logo {
     transition: all 2s;
 }
@@ -96,16 +98,27 @@ user agent stylesheet li {
 
 .liquidacion img {
     width: 900px;
+    border: darkmagenta solid 1px;
+}
+
+.liquidacion img:hover {
+    filter: opacity(.3);
+
 }
 
 .card1 {
     padding: 1px;
     display: flex;
-    gap: 200px;
+    gap: 20px;
+    transition: all;
 }
 
 .card1 img {
     height: 700px;
+}
+
+.card1 img:hover {
+    filter: opacity(.5);
 }
 
 #notificaciones {
@@ -120,16 +133,14 @@ user agent stylesheet li {
 
 .cupon {
     display: flex;
-    flex-direction: row-reverse;
-    border: skyblue dotted 5px;
 }
 
 .cupon .figures {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .cupon img {
-    border: skyblue dotted 5px;
+    width: 100px;
 }
 
 /* INDEX */
@@ -176,6 +187,10 @@ user agent stylesheet li {
 h2 a {
     font-size: 1.5rem;
     font-family: cursive;
+}
+
+.prod2 img {
+    width: 100px;
 }
 
 .prod-flex {
@@ -237,20 +252,13 @@ h2 a {
     width: 100%;
     height: 500px;
     text-align: center;
-    border: skyblue dotted 5px;
+    border: darkmagenta outset 10px;
 }
 
 /* SUCURSALES */
 /* RRHH */
 .imgrrhh {
     display: flex;
-}
-
-.imgrrhh img {
-    display: flex;
-    width: auto;
-    /*  */
-    height: auto;
 }
 
 form {
@@ -263,6 +271,11 @@ form {
 @media (max-width: 500px) {
     html {
         font-size: 50%;
+    }
+
+    .todo img {
+        display: none;
+
     }
 
     .navbar {
@@ -280,14 +293,14 @@ form {
         flex-direction: column;
     }
 
-    .portadas img {
+    /*  .portadas img {
         width: 100%;
     }
 
     .portadas h3 {
         text-align: center;
         font-size: 3rem;
-    }
+    } */
 
     #carouselExampleFade {
         display: grid;
@@ -302,9 +315,10 @@ form {
     }
 
     .cupon {
-        padding: 3px;
-        display: grid;
+        display: flex;
         text-align: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .cupon .figures {
@@ -312,11 +326,11 @@ form {
         font-size: 10px;
     }
 
-    .notificaciones {
-        font-size: 3rem;
+    #notificaciones {
+        font-size: 1rem;
     }
 
-    .conteiner {
+    .container {
         display: flex;
         width: 100%;
     }
@@ -324,10 +338,8 @@ form {
     .figure img {
         border: crimson solid 5px;
         width: auto;
-        height: 100px;
+        height: 50px;
     }
-
-
 
     /* INDEX */
     /* PRODUCTOS */
@@ -352,13 +364,12 @@ form {
 
     .card1 img {
         width: 50%;
-        height: 250px;
+        height: 150px;
         border: white solid 1px;
-
     }
 
 
-    .prod-flex {
+    /* .prod-flex {
         width: 100%;
         height: 100%;
     }
@@ -367,7 +378,7 @@ form {
         width: 65px;
         height: auto;
     }
-
+ */
     .prod p {
         display: flex;
         align-content: space-around;
@@ -375,7 +386,7 @@ form {
 
     #carouselExampleInterval {
         width: 100%;
-        height: 400px;
+        height: 410px;
     }
 
     #carouselExampleInterval img {
@@ -384,12 +395,6 @@ form {
     }
 
     /* RRHH */
-    .body_RRHH {
-        width: 100%;
-        background: pink;
-        padding: 50px;
-    }
-
     .imgrrhh {
         display: flex;
         flex-direction: column;
@@ -399,12 +404,15 @@ form {
         text-align: end;
     }
 
-    .mapa {
-        height: 50%;
+    .imgrrhh img {
+        display: none;
+    }
+
+    .mapa iframe {
+        height: 300px;
     }
 
     /* RRHH */
 }
-
 
 /* REPONSIVE PARA MOBILE */

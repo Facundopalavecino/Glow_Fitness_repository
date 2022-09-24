@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GlowFitness</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="icon" type="image/x-icon" href="/repositorio/assets/logo.ico.png">
     <!-- SEO -->
     <meta name="description" content="Indumentaria femenina, destinada a la vida deportista. Somos un emprendimiento
     surgido desde 2020. ¡ Entra y mira nuestras hermosas prendas !">
-    <meta name="keywords" content="indumentaria mujer,ropa mujer,deportes,fitness,gimnacio,running,entrenar">
+    <meta name="keywords" content="
+    indumentaria mujer,ropa mujer,deportes,fitness,gimnacio,running,entrenar">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -63,7 +65,7 @@
 
     </header>
     <figure class="liquidacion">
-        <img src="./assets/index/liquidacion.jpg" class="figure-img img-fluid p-3" alt="liquidacion">
+        <img src="./assets/index/liquidacion.jpg" class="figure-img img-fluid p-2" alt="liquidacion">
         <figcaption class="figure-caption fs-5  d-inline text-light">¡EN TODO SEPTIEMBRE Y NOVIEMBRE!
         </figcaption>
     </figure>
@@ -120,28 +122,36 @@
         <p class="fs-2 badge rounded-pill text-bg-danger col-5"> IMPERDIBLE</p>
         <p class="fs-2 badge rounded-pill text-bg-success col-5"> CUPON DE REGALO</p>
     </div>
-    <div class="cupon p-1">
-        <p class="figures text-light"> NO TE PIERDAS ESTE CUPON !
+    <div class="cupon p-1 col-12">
+        <p class="figures text-light"> NO TE PIERDAS ESTE CÚPON !
             Al realizar tu primer compra online,
-            <strong>¡¡ obtenes un 15% en tu siguiente compra!!</strong>
+            <strong>¡¡ obtenes un 15% de descuento en tu siguiente compra!!</strong>
         </p>
-
-        <figure class="figure">
-            <img src="./assets/index/15off.jpg" class="figure-img img-fluid rounded" alt="cupon">
-            <figcaption class="figure-caption fs-5 text-light">Cupon valido hasta el 01/12/2022</figcaption>
+        <figure class="figure col-6 text-center">
+            <img src="./assets/index/15-off.png" class="figure-img img-fluid rounded" alt="cupon">
+            <figcaption class="figure-caption fs-5 text-light">Cúpon valido hasta el 01/12/2022</figcaption>
         </figure>
     </div>
+    <nav class="mapeo">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="./pages/productos.html">Siguiente página</a>
+            </li>
+        </ul>
+    </nav>
     <!--  -->
     <div class="container text-light">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
+            <div class="col-md-2 d-flex align-items-center">
                 <span class="mb-3 mb-md-0 fw-semibold">&copy; 2022 Company, Inc</span>
+            </div>
+            <div class="col-md-2 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 fw-semibold">glowfitness@gmail.com</span>
             </div>
             <div>
                 <h5 class="footerGlow fw-semibold">Glow Fitness</h5>
-                <span class="mb-3 mb-md-0 fw-semibold"> Todos los derechos reservados </span>
+                <span class="mb-1 mb-md-0 fw-semibold"> Todos los derechos reservados </span>
             </div>
-
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3"><a class="fw-semibold" href="#"><svg class="bi" width="24" height="24">
                             <use xlink:href="#twitter" />
@@ -152,6 +162,9 @@
                 <li class="ms-3"><a class="fw-semibold" href="#"><svg class="bi" width="24" height="24">
                             <use xlink:href="#facebook" />
                         </svg></a></li>
+                <i class="bi ms-3 bi-credit-card-2-back-fill"></i>
+                <i class="bi ms-3 bi-paypal"></i>
+                <i class="bi ms-3 bi-credit-card"></i>
             </ul>
         </footer>
     </div>
